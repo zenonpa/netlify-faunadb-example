@@ -23,10 +23,10 @@ const AppHeader = (props) => {
         h1 className = 'app-title' > Netlify + Fauna DB < /h1> <
         p className = 'app-intro' >
         Usando FaunaDB & Netlify functions <
-        /p> <
-        /div> <
-        /div> <
-        /div> <
+        /p> < /
+        div > <
+        /div> < /
+        div > <
         div className = 'deploy-button-wrapper' >
         <
         a target = '_blank'
@@ -40,18 +40,19 @@ const AppHeader = (props) => {
         /a> <
         div className = 'view-src' >
         <
+        /div>  <
         a target = '_blank'
         rel = 'noopener noreferrer'
         href = 'https://github.com/netlify/netlify-faunadb-example' >
-        <
-        img className = 'github-icon'
-        src = { github }
-        alt = 'view repo on github' / >
+        /*         <
+                img className = 'github-icon'
+                src = { github }
+                alt = 'view repo on github' / > */
         View the source Luke <
-        /a> <
-        /div> <
-        /div> <
-        /div> <
+        /a> < /
+        div > <
+        /div> < /
+        div > <
         /header>
     )
 }
