@@ -1,7 +1,7 @@
 import React from 'react'
 import deployButton from '../../assets/deploy-to-netlify.svg'
 import logo from '../../assets/logo.svg'
-import github from '../../assets/github.svg'
+//import github from '../../assets/github.svg'
 import styles from './AppHeader.css' // eslint-disable-line
 
 const AppHeader = (props) => {
@@ -40,16 +40,7 @@ const AppHeader = (props) => {
         /a> <
         div className = 'view-src' >
         <
-        /div>  <
-        a target = '_blank'
-        rel = 'noopener noreferrer'
-        href = 'https://github.com/netlify/netlify-faunadb-example' >
-        /*         <
-                img className = 'github-icon'
-                src = { github }
-                alt = 'view repo on github' / > */
-        View the source Luke <
-        /a> < /
+        /div> < /
         div > <
         /div> < /
         div > <
