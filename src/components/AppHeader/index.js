@@ -1,7 +1,7 @@
 import React from 'react'
 import deployButton from '../../assets/deploy-to-netlify.svg'
 import logo from '../../assets/logo.svg'
-//import github from '../../assets/github.svg'
+import github from '../../assets/github.svg'
 import styles from './AppHeader.css' // eslint-disable-line
 
 const AppHeader = (props) => {
@@ -27,24 +27,8 @@ const AppHeader = (props) => {
         div > <
         /div> < /
         div > <
-        div className = 'deploy-button-wrapper' >
-        <
-        a target = '_blank'
-        rel = 'noopener noreferrer'
-        href = 'https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example&stack=fauna' >
-        <
-        img src = { deployButton }
-        className = 'deploy-button'
-        alt = 'deploy to netlify' / >
-        <
-        /a> <
-        div className = 'view-src' >
-        <
         /div> < /
-        div > <
-        /div> < /
-        div > <
-        /header>
+        header >
     )
 }
 
