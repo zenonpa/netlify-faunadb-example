@@ -42,7 +42,7 @@ export default class App extends Component {
     const todoValue = this.inputElement.value
 
     if (!todoValue) {
-      alert('Please add Todo title')
+      alert('Por favor añada un valor')
       this.inputElement.focus()
       return false
     }
@@ -268,7 +268,7 @@ export default class App extends Component {
       if (ref) {
         deleteButton = (
           <button data-id={id} onClick={this.deleteTodo}>
-            delete
+            Eliminar
           </button>
         )
       }
