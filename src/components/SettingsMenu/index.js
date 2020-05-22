@@ -29,7 +29,8 @@ export default class Menu extends Component {
         return ( <
             div className = 'settings-wrapper'
             style = {
-                { display: showOrHide } } >
+                { display: showOrHide }
+            } >
             <
             div className = 'settings-content' >
             <
@@ -45,11 +46,12 @@ export default class Menu extends Component {
             <
             button className = 'btn-danger' >
             Clear All Completed Todos <
-            /button> <
-            /div> <
+            /button> < /
+            div > <
             div className = 'settings-section'
             style = {
-                { display: 'none' } } >
+                { display: 'none' }
+            } >
             <
             div className = 'settings-header' > Ordenar Todos: < /div> <
             div className = 'settings-options-wrapper'
@@ -64,10 +66,10 @@ export default class Menu extends Component {
             onClick = { this.changeSetting }
             data - value = 'asc' >
             Most Recent First▲ <
-            /div> <
-            /div> <
-            /div> <
-            /div> <
+            /div> < /
+            div > <
+            /div> < /
+            div > <
             /div>
         )
     }
