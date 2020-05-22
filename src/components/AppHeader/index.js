@@ -20,7 +20,7 @@ const AppHeader = (props) => {
         <
         div className = 'app-title-text' >
         <
-        h1 className = 'app-title' > Netlify + Fauna DB < /h1> <
+        h1 className = 'app-title' > Consulta Test51 < /h1> <
         p className = 'app-intro' >
         Usando FaunaDB & Netlify functions <
         /p> < /
