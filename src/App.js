@@ -53,6 +53,7 @@ export default class App extends Component {
     const todoInfo = {
       title: todoValue,
       completed: false,
+      cantidad: 1,
     }
     // Optimistically add todo to UI
     const newTodoArray = [{
@@ -324,7 +325,7 @@ export default class App extends Component {
             />
             <div className='todo-actions'>
               <button className='todo-create-button'>
-                Create todo
+                Agregar item
               </button>
               <SettingsIcon onClick={this.openModal}  className='desktop-toggle' />
             </div>
