@@ -30,7 +30,7 @@ export default class App extends Component {
         return false
       }
 
-      console.log('all todos', todos)
+      //console.log('all todos', todos)
       this.setState({
         todos: todos
       })
